@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-a=ztyp($nf6@oh1ok#r8adu5u&wu-glod-*1cx_1cy2_@h)4+y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['enigmatic-sea-62150.herokuapp.com', '127.0.0.1']
 
