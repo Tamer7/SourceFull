@@ -1,0 +1,26 @@
+appnope @ file:///opt/concourse/worker/volumes/live/8b5bd665-fe9a-4b43-55ab-604475fcb838/volume/appnope_1606859465017/work
+asgiref==3.4.1
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+certifi==2021.5.30
+charset-normalizer==2.0.10
+decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
+Django==3.2.11
+gunicorn==20.1.0
+idna==3.3
+ipython @ file:///opt/concourse/worker/volumes/live/8c453bb6-500b-4747-778c-a236ae4a574d/volume/ipython_1593447395779/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+jedi==0.17.0
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
+pytz==2021.3
+requests==2.27.1
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+sqlparse==0.4.2
+traitlets @ file:///opt/concourse/worker/volumes/live/ab4b852a-8753-4f70-6083-433627bb8c3b/volume/traitlets_1632761183919/work
+typing_extensions==4.0.1
+urllib3==1.26.7
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
