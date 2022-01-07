@@ -135,12 +135,12 @@ USE_TZ = True
 
 
 ###Testing
-STATIC_URL = '/static/'
+STATIC_URL = 'jobfinder/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'jobfinder/static'),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'jobfiner/static')
 
 
 
