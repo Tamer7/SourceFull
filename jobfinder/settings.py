@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-a=ztyp($nf6@oh1ok#r8adu5u&wu-glod-*1cx_1cy2_@h)4+y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['enigmatic-sea-62150.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['enigmatic-sea-62150.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
@@ -126,12 +126,23 @@ USE_TZ = True
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'jobfinder/static')
 # ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_URL = '/static/'
 
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'jobfinder/static'),
+# )
+
+
+###Testing
+STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'jobfinder/static'),
+    os.path.join(BASE_DIR, 'static'),
 )
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
