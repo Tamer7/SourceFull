@@ -1,1 +1,1 @@
-web: gunicorn jobfinder.wsgi
+web: gunicorn sourcefull.wsgi
