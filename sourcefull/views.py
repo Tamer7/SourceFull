@@ -29,4 +29,8 @@ def index(request):
 	return render(request, 'index.html', {})
 
 
+def webdesign(request):
+    return render(request, 'webdesign.html')
+
+
     

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block banner %}
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+        <h1 data-aos="fade-up">Web Design</h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">We have a team of talented devlopers with over 10 years of experience.
+        </h2>
+        <p>
+            We offer various packages for Software Devlopment. 
+            We help in assisting in QA, Front end and Backend Development. 
+            We Design and Develop Mobile Applications. 
+            
+        </p>
+        <div data-aos="fade-up" data-aos-delay="800">
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        </div>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+        <img src="{% static 'img/webdesigner.png' %}" class="img-fluid animated" alt="">
+      </div>
+    </div>
+  </div>
+
+</section><!-- End Hero -->
+{% endblock %}
+
+{% block content %}
+
+<main id="main">
+
+  <!-- ======= Clients Section ======= -->
+  
+</main><!-- End #main -->
+
+{% endblock %}
