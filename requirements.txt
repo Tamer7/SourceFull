@@ -25,3 +25,4 @@ typing_extensions==4.0.1
 urllib3==1.26.7
 wcwidth
 whitenoise==5.3.0
+django-environ==0.8.1
