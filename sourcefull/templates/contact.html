@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block banner %}
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+
+  <div class="container">
+
+    <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+      <form action="" method="post">
+      {% csrf_token %}
+      {{ form | crispy }}
+      <button class="text-center" type="submit">Send message</button>
+    </form>
+  </div>
+
+  </div>
+
+</section><!-- End Hero -->
+{% endblock %}
+
+{% block content %}
+
+
+
+
+
+
+{% endblock %}
