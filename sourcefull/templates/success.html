@@ -5,6 +5,14 @@
 <!-- ======= Hero Section ======= -->
 
 
+
+<!-- Re-direct function  -->
+<script type="text/javascript">
+  setTimeout(function() {
+      window.location.href = "{% url 'index' %}";
+  }, 5000);
+</script>
+
 <section id="hero" class="d-flex align-items-center">
 
   <div class="container">
@@ -12,15 +20,43 @@
     <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
 
       <div class="sent-message">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
       
         <h1 style="justify-content:center">Your message has been sent. Thank you!</h1>
-  
+        <!-- <b><span id="count">Page will refresh in 5</span> Seconds</b><span>If you are not redirected automatically<a href="{% url 'index'%}">Click Here</a></span> -->
+    
       </div>
+
+      <div style="width:90%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/MdqE46HziuFJTlIwjw" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/HBOMax-MdqE46HziuFJTlIwjw">via GIPHY</a></p>
+
 
   </div>
 
   </div>
 
 </section><!-- End Hero -->
+{% endblock %}
+
+{% block content %}
+
+<main id="main">
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</main><!-- End #main -->
+
+
+
 {% endblock %}
 

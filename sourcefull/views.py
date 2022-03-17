@@ -38,6 +38,13 @@ def index(request):
 def webdesign(request):
     return render(request, 'webdesign.html')
 
+def translations(request):
+    return render(request, 'translations.html')
+
+def advertisement(request):
+    return render(request, 'advertisement.html')
+    	
+
 
 
 

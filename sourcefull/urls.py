@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from sourcefull.views import index, webdesign
+from sourcefull.views import index, webdesign, translations, advertisement
 from .views import ContactView, ContactSuccessView
 
 app_name = 'index'
@@ -29,6 +29,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', ContactView.as_view(), name='index'),
     path('webdesign', webdesign, name='webdesign'),
+    path('translations', translations, name='translations'),
+    path('advertisment', advertisement, name='advertisement'),
     path('contact', ContactView.as_view(), name="contact"),
     path('success/', ContactSuccessView.as_view(), name="success"),
 ]

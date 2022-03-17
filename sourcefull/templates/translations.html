@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block banner %}
+<!-- ======= Hero Section ======= -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+
+<section id="hero" class="d-flex align-items-center">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+        <h1 data-aos="fade-up">Translations</h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">Need a Document Translated Professionaly? We got it! We translate to over 170+ Languages
+        </h2>
+        <p>
+
+          We Offer Various Translation Services for your Business. 
+          We Translate from any Language Requested. We work with legal
+          and unofficial document translations and audio translations. 
+            
+        </p>
+        <br>
+        <br>
+        <h2 style="color: black; margin-bottom: 20px; font-weight: bolder;">You can find our Packages Down Below</h2>
+        <p>
+          We offer 3 various packages all offering a high quality service for your business. 
+          You can contact us for your query with the reference number mentioned below regarding the type of service you want built out and we 
+          would recommend a package depending on your requirement. 
+        </p>
+
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+        <img src="{% static 'img/translations.png' %}" class="img-fluid animated" alt="">
+      </div>
+    </div>
+    
+  </div>
+
+
+
+  
+  
+
+
+</section><!-- End Hero -->
+{% endblock %}
+
+{% block content %}
+
+<main id="main">
+
+  <!-- ======= Clients Section ======= -->
+  <div class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Standard</h4>
+        </div>
+        <div class="card-body">
+          <p>Reference: T-01</p>
+          <h1 class="card-title pricing-card-title">Price Upon Request <small class="text-muted"></small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li class="bi bi-check">Internal Communications</li>
+            <li class="bi bi-check">Product Descriptions</li>
+            <li class="bi bi-check">Social Media Posts</li>
+            <br>
+            <br>
+          </ul>
+          <a href="{% url 'index' %}#contact" class="btn btn-lg btn-block btn-primary">Contact us</a>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Pro</h4>
+        </div>
+        <div class="card-body">
+          <p>Reference: T-02</p>
+          <h1 class="card-title pricing-card-title">Price Upon Request <small class="text-muted"></small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li class="bi bi-check">Presentations</li>
+            <li class="bi bi-check">Reports</li>
+            <li class="bi bi-check">  Guides</li>
+            <li class="bi bi-check">Static Web Copy</li>
+            <li class="bi bi-check">Articles</li>
+          </ul>
+          <a href="{% url 'index' %}#contact" class="btn btn-lg btn-block btn-primary">Contact us</a>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Enterprise</h4>
+        </div>
+        <div class="card-body">
+          <p>Reference: T-03</p>
+          <h1 class="card-title pricing-card-title">Price Upon Request <small class="text-muted"></small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li class="bi bi-check">Subtitling</li>
+            <li class="bi bi-check">Video transcription</li>
+            <li class="bi bi-check">Post-edited machine translation</li>
+            <br>
+            <br>
+          </ul>
+          <a href="{% url 'index' %}#contact" class="btn btn-lg btn-block btn-primary">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+</main><!-- End #main -->
+
+
+
+{% endblock %}
