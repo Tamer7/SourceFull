@@ -11,7 +11,7 @@ class ContactForm(forms.Form):
 
     def get_info(self):
         """
-        Method that returns formatted information
+        Method that returns formatted informations
         :return: subject, msg
         """
         # Cleaned data
