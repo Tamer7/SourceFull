@@ -43,7 +43,7 @@ SECRET_KEY = 'django-insecure-a=ztyp($nf6@oh1ok#r8adu5u&wu-glod-*1cx_1cy2_@h)4+y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.sourcefull.eu', 'https://radiant-sfogliatella-437339.netlify.app', 'radiant-sfogliatella-437339.netlify.app', 'sourcefull.eu', 'enigmatic-sea-62150.herokuapp.com', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['www.sourcefull.eu', 'https://www.sourcefull.eu/', 'https://radiant-sfogliatella-437339.netlify.app', 'radiant-sfogliatella-437339.netlify.app', 'sourcefull.eu', 'enigmatic-sea-62150.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
